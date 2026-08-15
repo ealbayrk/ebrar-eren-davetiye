@@ -269,7 +269,7 @@ h1 span,
 }
 
 #dugun {
-  min-height: min(675px, 125vw);
+
 
   padding-top: min(74px, 13.7vw);
 }
@@ -453,6 +453,81 @@ address {
   font-size: clamp(10px, 2.22vw, 12px);
 
   font-style: italic;
+}
+
+/* -------------------- DÜĞÜN AKIŞI -------------------- */
+
+.wedding-flow {
+  margin: 28px auto 0;
+  padding: 20px 18px;
+
+  border: 1px solid rgba(71,120,154,.16);
+  border-radius: 22px;
+
+  background: rgba(255,255,255,.76);
+  box-shadow: var(--shadow);
+
+  text-align: left;
+}
+
+.flow-title {
+  margin: 0 0 16px;
+
+  text-align: center;
+
+  color: var(--blue-dark);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(13px, 2.78vw, 15px);
+  font-weight: 700;
+}
+
+.flow-item {
+  display: grid;
+
+  grid-template-columns: 64px 1fr;
+
+  gap: 12px;
+
+  align-items: center;
+
+  padding: 9px 0;
+
+  border-bottom:
+    1px solid
+    rgba(71,120,154,.10);
+}
+
+.flow-item:last-child {
+  border-bottom: 0;
+}
+
+.flow-time {
+  color: var(--gold);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(14px, 2.96vw, 16px);
+
+  font-weight: 700;
+}
+
+.flow-text {
+  color: var(--ink);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(12px, 2.59vw, 14px);
 }
 
 
