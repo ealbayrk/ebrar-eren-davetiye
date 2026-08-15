@@ -16,14 +16,16 @@ function updateCountdown(element) {
   }
 
   const days = Math.floor(diff / 86400000);
-  const hours = Math.floor((diff % 86400000) / 3600000);
-  const minutes = Math.floor((diff % 3600000) / 60000);
-  element.textContent = `${label} ${days} gün · ${pad(hours)} saat · ${pad(minutes)} dk kaldı`;
+const hours = Math.floor((diff % 86400000) / 3600000);
+const minutes = Math.floor((diff % 3600000) / 60000);
+const seconds = Math.floor((diff % 60000) / 1000);
+
+element.textContent = `${label} ${days} gün · ${pad(hours)} saat · ${pad(minutes)} dk · ${pad(seconds)} sn kaldı`;
 }
 
 const countdowns = document.querySelectorAll("[data-countdown]");
 countdowns.forEach(updateCountdown);
-setInterval(() => countdowns.forEach(updateCountdown), 30000);
+setInterval(() => countdowns.forEach(updateCountdown), 1000);
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
