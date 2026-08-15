@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fdfcf9" />
+  <meta name="description" content="Ebrar & Eren — Kına ve düğün davetiyesi" />
+  <title>Ebrar & Eren | Davetiye</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="invitation" aria-label="Ebrar ve Eren düğün davetiyesi">
+    <div class="soft-overlay" aria-hidden="true"></div>
+
+    <section class="hero section reveal">
+      <p class="eyebrow">Birlikte yeni bir başlangıca</p>
+      <h1>Ebrar <span>&amp;</span> Eren</h1>
+      <p class="invitation-quote">Bu kıymetli günümüzde, sizleri aramızda görmekten mutluluk duyarız.</p>
+      <div class="families" aria-label="Aileler">
+        <p>Ayşe &amp; Sait Albayrak</p>
+        <span class="family-dot">•</span>
+        <p>Arzu &amp; Fuat Kayali</p>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <section class="event section reveal" id="kina">
+      <p class="section-kicker">03 Eylül 2026</p>
+      <h2>Kına Gecemiz</h2>
+      <p class="special-note">Kadın davetlilerimize özel</p>
+      <div class="event-meta">
+        <p class="time">19.00</p>
+        <p class="venue">Tulipan</p>
+        <address>
+          Vega İstanbul AVM<br />
+          Yunus Emre Mahallesi<br />
+          Lütfi Aykaç Bulvarı No: 80/73<br />
+          Sultangazi / İstanbul
+        </address>
+      </div>
+      <a class="button button-outline" href="https://www.google.com/maps/dir/Tulipan+Davet+Organizasyon+-+Tulipan+Palazio+Organizasyon,+S%C4%B0M%C4%B0T+SARAYI+VEGA+%C4%B0STANBUL+AVM,+Yunus+Emre,+L%C3%BCtfi+Ayka%C3%A7+Blv.+No:80+I+Blok+Kap%C4%B1+No:73,+34260+Sultangazi%2F%C4%B0stanbul/@41.1747258,28.8946305,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14cab1638fd51b65:0x75dc7988c453b23d!2m2!1d28.904261!2d41.0930478?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+        Konuma Git
+      </a>
+      <p class="countdown" data-countdown="2026-09-03T19:00:00+03:00" data-label="Kına gecemize"></p>
+    </section>
+
+    <section class="event section reveal" id="dugun">
+      <p class="section-kicker">05 Eylül 2026</p>
+      <h2>Düğünümüz</h2>
+      <div class="event-meta">
+        <p class="time">19.00</p>
+        <p class="venue">Mesa Garden</p>
+        <address>
+          Adnan Menderes Mahallesi<br />
+          Maltepe Caddesi No: 123/1<br />
+          Arnavutköy / İstanbul
+        </address>
+      </div>
+      <a class="button button-outline" href="https://www.google.com/maps/dir/Mesa+Garden,+Adnan+Menderes,+Maltepe+Cd.+No:+123%2F1,+34275+Arnavutk%C3%B6y%2F%C4%B0stanbul/@41.1747258,28.8946305,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14caab83807367cb:0x81f33501ac0ec57d!2m2!1d28.704145!2d41.2002185?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+        Konuma Git
+      </a>
+      <p class="countdown" data-countdown="2026-09-05T19:00:00+03:00" data-label="Düğünümüze"></p>
+      <div class="convoy-note">
+        <p class="convoy-title">Konvoy Bilgisi</p>
+        <p>Konvoyumuz erkek evinden <strong>16.30’da</strong> yola çıkacaktır, kız evinde ise <strong>17.00’de</strong> toplanacaktır.</p>
+      </div>
+    </section>
+
+    <section class="rsvp section reveal" id="katilim">
+      <p class="section-kicker">Katılım</p>
+      <h2>Siz de bizimle olacak mısınız?</h2>
+      <p class="section-copy">Hazırlıklarımızı tamamlayabilmemiz için katılım durumunuzu bizimle paylaşmanızı rica ederiz.</p>
+
+      <form id="rsvpForm" novalidate>
+        <label class="field">
+          <span>Ad Soyad</span>
+          <input id="adSoyad" name="adSoyad" type="text" autocomplete="name" maxlength="80" placeholder="Adınız ve soyadınız" required />
+        </label>
+
+        <fieldset class="choice-group">
+          <legend>Kına Gecesi <small>— kadın davetlilerimiz için</small></legend>
+          <div class="choice-grid three">
+            <label><input type="radio" name="kinaKatilim" value="Katılacağım" required /><span>Katılacağım</span></label>
+            <label><input type="radio" name="kinaKatilim" value="Katılamayacağım" /><span>Katılamayacağım</span></label>
+            <label><input type="radio" name="kinaKatilim" value="Benim için geçerli değil" /><span>Geçerli değil</span></label>
+          </div>
+        </fieldset>
+
+        <label class="field conditional" id="kinaKisiWrap" hidden>
+          <span>Kınaya kaç kişi katılacaksınız?</span>
+          <input id="kinaKisi" name="kinaKisi" type="number" inputmode="numeric" min="1" max="20" placeholder="Kişi sayısı" />
+        </label>
+
+        <fieldset class="choice-group">
+          <legend>Düğün</legend>
+          <div class="choice-grid two">
+            <label><input type="radio" name="dugunKatilim" value="Katılacağım" required /><span>Katılacağım</span></label>
+            <label><input type="radio" name="dugunKatilim" value="Katılamayacağım" /><span>Katılamayacağım</span></label>
+          </div>
+        </fieldset>
+
+        <label class="field conditional" id="dugunKisiWrap" hidden>
+          <span>Düğüne kaç kişi katılacaksınız?</span>
+          <input id="dugunKisi" name="dugunKisi" type="number" inputmode="numeric" min="1" max="20" placeholder="Kişi sayısı" />
+        </label>
+
+        <label class="field">
+          <span>Notunuz <small>(isteğe bağlı)</small></span>
+          <textarea id="not" name="not" rows="3" maxlength="250" placeholder="Bizimle paylaşmak istediğiniz bir not varsa..." ></textarea>
+        </label>
+
+        <button class="button button-primary" type="submit" id="submitButton">Katılımımı Bildir</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="photos section reveal">
+      <p class="section-kicker">Anılar</p>
+      <h2>Fotoğraflarınızı Bizimle Paylaşın</h2>
+      <p class="section-copy">Kına ve düğün gününde çektiğiniz fotoğraf ve videoları bizimle paylaşabilirsiniz.</p>
+      <a class="button button-primary" href="https://drive.google.com/drive/folders/13lBwcrCkUOXgchDN9I1gxQLbumhLj-i1?usp=share_link" target="_blank" rel="noopener noreferrer">
+        Fotoğraf &amp; Video Yükle
+      </a>
+    </section>
+
+    <footer class="footer section reveal">
+      <p class="footer-name">Ebrar <span>&amp;</span> Eren</p>
+      <p>03.09.2026 &nbsp;•&nbsp; 05.09.2026</p>
+      <p class="footer-heart" aria-label="Kalp">♡</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
