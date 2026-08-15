@@ -457,74 +457,26 @@ address {
 
 /* -------------------- DÜĞÜN AKIŞI -------------------- */
 
-.wedding-flow {
-  margin: 30px auto 0;
-  padding: 24px 22px;
 
-  border: 1px solid rgba(71,120,154,.10);
-  border-radius: 30px;
 
-  background: rgba(255,255,255,.52);
-  box-shadow: 0 8px 22px rgba(37,60,72,.045);
+.wedding-timeline {
+  width: 100%;
+  margin: 34px auto 0;
 
-  text-align: left;
-}
-
-.flow-title {
-  margin: 0 0 16px;
-
-  text-align: center;
-
-  color: var(--blue-dark);
-
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-
-  font-size: clamp(13px, 2.78vw, 15px);
-  font-weight: 700;
-}
-
-.flow-item {
-  display: grid;
-  grid-template-columns: 58px 1fr;
-  gap: 14px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-
-  padding: 11px 0;
-
-  border-bottom: none;
 }
 
-.flow-item:last-child {
-  border-bottom: 0;
+.wedding-timeline img {
+  display: block;
+
+  width: 72%;
+  max-width: 285px;
+  height: auto;
+
+  margin: 0 auto;
 }
-
-.flow-time {
-  color: var(--gold);
-
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-
-  font-size: clamp(13px, 2.7vw, 15px);
-  font-weight: 600;
-  letter-spacing: .04em;
-}
-
-.flow-text {
-  color: var(--ink);
-
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-
-  font-size: clamp(12px, 2.59vw, 14px);
-}
-
 
 /* -------------------- KONVOY -------------------- */
 
@@ -581,7 +533,7 @@ address {
 
 .rsvp {
   min-height: min(930px, 172.22vw);
-  padding-top: min(80px, 14vw);
+  padding-top: min(60px, 11vw);
 }
 
 .section-copy {
