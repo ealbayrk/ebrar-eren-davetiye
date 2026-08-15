@@ -86,14 +86,14 @@ a {
   background-repeat: repeat-y;
 
   pointer-events: none;
-  z-index: -2;
+  z-index: 0;
 }
 
 .soft-overlay {
   position: absolute;
   inset: 0;
 
-  z-index: -1;
+  z-index: 1;
   pointer-events: none;
 
   background:
@@ -102,6 +102,12 @@ a {
       rgba(255,255,255,.02),
       rgba(255,255,255,.10)
     );
+}
+
+.invitation > section,
+.invitation > footer {
+  position: relative;
+  z-index: 2;
 }
 
 
