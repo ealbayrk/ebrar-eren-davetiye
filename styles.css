@@ -470,11 +470,9 @@ address {
 
 .wedding-timeline img {
   display: block;
-
-  width: 72%;
-  max-width: 285px;
+  width: 62%;
+  max-width: 240px;
   height: auto;
-
   margin: 0 auto;
 }
 
