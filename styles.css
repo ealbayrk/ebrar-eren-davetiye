@@ -458,14 +458,14 @@ address {
 /* -------------------- DÜĞÜN AKIŞI -------------------- */
 
 .wedding-flow {
-  margin: 28px auto 0;
-  padding: 20px 18px;
+  margin: 30px auto 0;
+  padding: 24px 22px;
 
-  border: 1px solid rgba(71,120,154,.16);
-  border-radius: 22px;
+  border: 1px solid rgba(71,120,154,.10);
+  border-radius: 30px;
 
-  background: rgba(255,255,255,.76);
-  box-shadow: var(--shadow);
+  background: rgba(255,255,255,.52);
+  box-shadow: 0 8px 22px rgba(37,60,72,.045);
 
   text-align: left;
 }
@@ -488,18 +488,13 @@ address {
 
 .flow-item {
   display: grid;
-
-  grid-template-columns: 64px 1fr;
-
-  gap: 12px;
-
+  grid-template-columns: 58px 1fr;
+  gap: 14px;
   align-items: center;
 
-  padding: 9px 0;
+  padding: 11px 0;
 
-  border-bottom:
-    1px solid
-    rgba(71,120,154,.10);
+  border-bottom: none;
 }
 
 .flow-item:last-child {
@@ -514,9 +509,9 @@ address {
     "Times New Roman",
     serif;
 
-  font-size: clamp(14px, 2.96vw, 16px);
-
-  font-weight: 700;
+  font-size: clamp(13px, 2.7vw, 15px);
+  font-weight: 600;
+  letter-spacing: .04em;
 }
 
 .flow-text {
