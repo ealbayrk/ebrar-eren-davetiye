@@ -30,7 +30,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   min-height: 3500px;
   margin: 0 auto;
   overflow: hidden;
-  background: var(--paper) url("assets/davetiye.svg") center top / 100% auto no-repeat;
+background: var(--paper) url("davetiye.svg") center top / 100% auto no-repeat;
   box-shadow: 0 0 42px rgba(28, 43, 49, 0.14);
   isolation: isolate;
 }
