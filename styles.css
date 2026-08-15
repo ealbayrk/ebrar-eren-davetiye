@@ -586,8 +586,7 @@ address {
 
 .rsvp {
   min-height: min(930px, 172.22vw);
-
-  padding-top: min(52px, 9.63vw);
+  padding-top: min(80px, 14vw);
 }
 
 .section-copy {
