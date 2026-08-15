@@ -191,9 +191,9 @@ h1 span,
 
   font-family: Georgia, "Times New Roman", serif;
 
-  font-size: clamp(11px, 2.4vw, 13px);
+  font-size: clamp(12px, 2.6vw, 14px);
 
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .families p {
@@ -470,7 +470,7 @@ address {
 
 .wedding-timeline img {
   display: block;
-  width: 60%;
+  width: 55%;
   max-width: 240px;
   height: auto;
   margin: 0 auto;
