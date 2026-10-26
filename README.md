@@ -1,23 +1,30 @@
-# Ebrar & Eren — Online Davetiye
+Digital Wedding  💍
 
-Bu klasör GitHub Pages'e doğrudan yüklenebilir.
+A personalized, responsive wedding invitation website developed for a real-life event.
 
-## Dosyalar
-- `index.html` — davetiye içeriği
-- `styles.css` — tüm tasarım
-- `script.js` — geri sayım + RSVP gönderimi
-- `assets/davetiye.svg` — tek parça çiçekli arka plan
+Features
 
-## GitHub Pages ile yayınlama
-1. GitHub'da yeni bir repository oluşturun (ör. `ebrar-eren-davetiye`).
-2. Bu klasördeki dosyaları repository'nin ana dizinine yükleyin.
-3. Repository'de `Settings` → `Pages` bölümüne gidin.
-4. `Build and deployment` altında `Deploy from a branch` seçin.
-5. Branch olarak `main`, klasör olarak `/ (root)` seçip `Save` deyin.
-6. Birkaç dakika içinde GitHub Pages adresiniz oluşur.
+* Responsive invitation design
+* Interactive RSVP form
+* Google Apps Script integration for RSVP submissions
+* Dynamic countdown timers
+* Event location links
+* Photo and video sharing
+* Scroll-based animations
 
-## RSVP
-RSVP endpoint'i `script.js` içinde `RSVP_ENDPOINT` değişkeninde tanımlıdır.
+Tech Stack
 
-## Önemli
-Apps Script dağıtımı değişirse yeni `/exec` URL'sini `script.js` içindeki `RSVP_ENDPOINT` değerine yazın.
+* HTML5
+* CSS3
+* JavaScript
+* Google Apps Script
+* GitHub Pages
+
+About
+
+Built as a personal project to create a digital invitation experience and simplify guest attendance collection.
+
+Developer
+
+Ebrar Albayrak
+Computer Engineering 
